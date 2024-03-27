@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./blackpink/bp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color: pink;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+.bp{
+    font-size: 50px;
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    color: black;
+    margin-top: 20px;
+}
+a{
+    display: block;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 40px;
+    color: black;
+    text-decoration: none;
+}
+.icon{
+    margin-right: 30px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+a:hover{
+    transition: 1s;
+    color: white;
+    text-decoration: underline overline;
+}
+main{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+}
+.one{
+    width: 20vw;
+    height: 40vh;
+    background-color: lightpink;
+    overflow: auto;
+    margin-top: 200px;
+}
+.img1{
+    width: 230px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.two{
+    width: 20vw;
+    height: 40vh;
+    background-color: lightpink;
+    overflow: auto;
+    margin-top: 100px;
+   
+}
+.img2{
+    width: 230px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.thr{
+    width: 20vw;
+    height: 40vh;
+    background-color: lightpink;
+    overflow: auto;
+    margin-top: 200px;
+}
+
+.img3{
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.four{
+    width: 20vw;
+    height: 40vh;
+    background-color: lightpink;
+    overflow: auto;
+    margin-top: 100px;
+
+}
+
+.img4{
+    width: 230px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
